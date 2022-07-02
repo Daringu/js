@@ -5,7 +5,7 @@ const allBoxes = document.querySelector('#boxes')
 const inputEl = document.querySelector('input')
 const destroy = document.querySelector('button[data-destroy]')
 const create = document.querySelector('button[data-create]')
-let used = 0;
+let used = 0;//check if collection has been created
 
 function createBoxes(amount) {
 
